@@ -1,1 +1,17 @@
-<p>navbar works!</p>
+<div class="navbar" role="banner">
+    <div class="card-container">
+        <a class="card" routerLink="home" routerLinkActive="active">
+            <span>Home</span>
+        </a>
+        <a class="card" routerLink="map" routerLinkActive="active">
+            <span>Map</span>
+        </a>
+    </div>
+    <div class="card-container end">
+        <a class="card end">
+            <span>Logout</span>
+        </a>
+    </div>
+</div>
+
+<router-outlet></router-outlet>
