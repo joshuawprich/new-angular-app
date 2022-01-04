@@ -7,5 +7,6 @@ export type TypeUser = {
 
 export type TypePlayer = {
     id: number;
+    username: string;
     exp: number;
 }
