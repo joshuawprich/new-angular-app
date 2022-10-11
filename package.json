@@ -2,12 +2,13 @@
   "name": "new-angular-app",
   "version": "0.0.0",
   "scripts": {
-    "ng": "ng",
-    "start": "ng serve --host 192.168.0.125",
+    "ng": "ng serve --open",
+    "start": "ng serve --host 127.0.0.1:34333",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "serve": "concurrently \"npm start\" \"nodemon server/server.ts\""
+    "serve": "concurrently \"npm start\" \"nodemon server/server.ts\"",
+    "local": "ng serve --host localhost"
   },
   "private": true,
   "dependencies": {
