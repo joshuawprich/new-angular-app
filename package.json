@@ -8,7 +8,8 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "serve": "concurrently \"npm start\" \"nodemon server/server.ts\""
+    "serve": "concurrently \"npm start\" \"nodemon server/server.ts\"",
+    "local": "ng serve --host localhost"
   },
   "private": true,
   "dependencies": {
