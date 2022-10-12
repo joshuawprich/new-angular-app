@@ -9,6 +9,7 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { HomeComponent } from './components/home/home.component';
 import { PlayerDataService } from './services/player-data-service/player-data.service';
+import { NavbarItemComponent } from './components/navbar-item/navbar-item.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { PlayerDataService } from './services/player-data-service/player-data.se
     NavbarComponent,
     DashboardComponent,
     HomeComponent,
+    NavbarItemComponent,
   ],
   imports: [
     BrowserModule,

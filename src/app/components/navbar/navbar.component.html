@@ -1,16 +1,10 @@
 <div class="navbar" role="banner">
     <div class="card-container">
-        <a class="card" routerLink="home" routerLinkActive="active">
-            <span>Home</span>
-        </a>
-        <a class="card" routerLink="map" routerLinkActive="active">
-            <span>Map</span>
-        </a>
+        <app-navbar-item [title]="'Home'" [route]="'home'"></app-navbar-item>
+        <app-navbar-item [title]="'Map'" [route] = "'map'"></app-navbar-item>
     </div>
     <div class="card-container end">
-        <a class="card end">
-            <span>Logout</span>
-        </a>
+        <app-navbar-item [title]="'Logout'" [route]="'logout'"></app-navbar-item>
     </div>
 </div>
 
